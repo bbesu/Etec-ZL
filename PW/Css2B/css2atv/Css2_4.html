@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="topo"></div>
+    <div class="meio"></div>
+    <div class="sidebar1"></div>
+    <div class="sidebar2"></div>
+    <div class="rodape"></div>
+
+</body>
+<style>
+    .topo {
+    background-color: plum;
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    text-align: center;
+    padding: 10px;
+    }
+    .meio {
+        background-color:lightskyblue;
+        position: fixed;
+        width: 100%;
+        height: 100% ;
+        z-index: -1;
+        top: 40px;
+        bottom: 40px;
+        left: 0px;
+        text-align: center;
+        padding: 10px;
+    }
+    .sidebar1 {
+        background-color: rgb(114, 127, 227);
+        position: fixed;
+        width: 100px;
+        height: 100%;
+        top: 40px;
+        left: 0px;
+        text-align: center;
+        padding: 10px;
+    }
+    .sidebar2 {
+        background-color: rgb(114, 127, 227);
+        position: fixed;
+        width: 100px;
+        height: 100%;
+        top: 40px;
+        right: 0px;
+        text-align: center;
+        padding: 10px;
+    }
+    .rodape {
+    background-color: plum;
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    bottom: 0%;
+    left: 0;
+    text-align: center;
+    padding: 10px;
+    }
+
+</style>
+</html>
