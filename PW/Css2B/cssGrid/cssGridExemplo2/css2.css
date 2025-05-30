@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 2px;
+    display: grid;
+    border: 3px red solid;
+    gap: 3px;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 120px 5fr 1fr;
+    height: 100vh;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer"    
+    ;
+}
+header{
+    border: 2px solid green;
+    display: grid;
+    grid-template-columns: 2fr;
+}
+main{
+    border: 2px solid palevioletred;
+}
+section{
+    border: 2px solid royalblue;
+}
+footer{
+    border: 2px solid gold;
+}
