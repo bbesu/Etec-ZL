@@ -1,0 +1,68 @@
+Const -> Valores constantes que não mudam
+Let -> Valores constantes que mudam
+
+Para definir variaveis:
+" "
+' '
+´ ´
+tipeof - tipo de variavel
+string - texto
+number - numeros
+boolean - true ou false
+undeFined - valor não definido
+null -  valor nulo intercional
+
++ soma
+- subtração
+* multiplicação
+/ divisão
+% resto 
+** eleva o primeiro valor a potencia do segundo
+	
+	= Atribição simples
+atribui valor da direita a variavel da esquerda
+	+=, -=, *= e /= Atribuição com operação
+combina operação e atribuição: num +=5 
+	Igualdade
+== igual a
+=== estritamente igual
+			Exemplo:
+				num == 2 e num="2" true
+				num===2 e num"2" false
+
+	Diferença
+!= diferente de
+!== estritamente diferente
+	Grandeza
+> maior
+< menor
+>= maior ou igual
+<= menor ou igual
+
+&& e
+|| ou
+?? verificação e condição -- if else em uma linha só
+
+	Praticas Ruins
+-Criar variaveis com o mesmo nome para fazer a mesma coisa
+-Variaives globais desnecessarias
+-Criar variaveis para não usar
+-Não iniciar variaveis com numeros
+-Caracteres especias
+
+	Boas Praticas
+-Camel Case (userName, isVisible, minhaCasa)
+-Nomes Descritivos (wishList, textHere)
+
+"node --version"
+node - para usar o java script
+
+cms:
+[node
+> var a=5
+undefined
+> a
+5]
+
+[tipeof nome - string]
+[tipeof number - number]
