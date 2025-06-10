@@ -1,0 +1,42 @@
+        *{
+    margin: 0cm;
+    padding: 0cm;
+}
+.container{
+    padding: 2px;
+    display: grid;
+    border: 1px black solid;
+    background-color: black;
+    gap: 3px;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 60px 30px 1fr 60px;
+    height: 100vh;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer"
+    ;   
+}
+header{
+    background-color: gold;
+    border: 2px solid gold;
+}
+nav{
+    border: 2px solid peru;
+    background-color: peru;
+}
+main{
+    border: 2px solid palevioletred;
+    background-color: palevioletred;
+         display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+aside{
+
+  border: 2px black solid;
+    background-color: royalblue;
+}
+footer{
+    background-color: gold;
+    border: 2px solid gold;
+}
